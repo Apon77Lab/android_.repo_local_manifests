@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-	<project path="device/xiaomi/mido" name="Apon77/ppui" remote="github" revision="aex"/>
-	<project path="kernel/xiaomi/mido" name="Apon77/corvus_working_kernel" remote="github" revision="jenkins" />
-	<project path="device/xiaomi/mido" name="Apon77/vendor" remote="github" revision="aex"/>
-</manifest>
