@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="device/xiaomi/mido" name="Apon77/ppui" remote="github" revision="aex-zeelog"/>
-	<project path="kernel/xiaomi/mido" name="zeelog/android_kernel_xiaomi_mido" remote="github" revision="lineage-17.1" />
-	<project path="vendor/xiaomi" name="Apon77/vendor" remote="github" revision="aex-zeelog"/>
+
+	<remote  name="apon"
+		fetch="https://github.com/Apon77" />
+	<remote  name="zeelog"
+         	fetch="https://github.com/zeelog" />
+ 
+ 	<project path="device/xiaomi/mido" name="ppui" remote="apon" revision="aex-zeelog"/>
+	<project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="zeelog" revision="lineage-17.1" />
+	<project path="vendor/xiaomi" name="vendor" remote="apon" revision="aex-zeelog"/>
+
 </manifest>
