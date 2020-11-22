@@ -8,6 +8,6 @@
  
  	<project path="device/xiaomi/mido" name="ppui" remote="apon" revision="giasen"/>
 	<project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="zeelog" revision="lineage-17.1" />
-	<project path="vendor/xiaomi" name="vendor" remote="apon" revision="giasen"/>
+	<project path="vendor/xiaomi" name="vendor_a11" remote="apon" revision="eleven"/>
 
 </manifest>
