@@ -10,8 +10,9 @@
     <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="mido" revision="caf-msm8996-r" />
     <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media" groups="pdk,qcom,qcom_media" remote="mido" revision="caf-msm8996-r" />
     
+<!--
     # Apps
-    #<remove-project name="platform_packages_apps_Updater" />
-    #<project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="mido" revision="eleven" />
-
+    <remove-project name="platform_packages_apps_Updater" />
+    <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="mido" revision="eleven" />
+-->
 </manifest>
