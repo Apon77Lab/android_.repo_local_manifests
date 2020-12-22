@@ -8,4 +8,11 @@
 	<project path="frameworks/base" name="platform_frameworks_base-1" remote="apon" revision="11.x"/>
 -->
 
+	<remote  name="los" fetch="https://github.com/LineageOS" />
+ 
+        #Telephony
+	<remove-project name="frameworks/opt/telephony" />
+	<project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="los" revision="lineage-18.1"/>
+
+
 </manifest>
