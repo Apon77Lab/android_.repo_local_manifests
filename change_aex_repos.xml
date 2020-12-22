@@ -10,7 +10,7 @@
 	<remote  name="los" fetch="https://github.com/LineageOS" />
  
         #Telephony
-	<remove-project name="frameworks/opt/telephony" />
+	<remove-project name="platform_frameworks_opt_telephony" />
 	<project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="los" revision="lineage-18.1"/>
 
 </manifest>
