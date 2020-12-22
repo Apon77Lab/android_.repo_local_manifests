@@ -19,6 +19,3 @@
   <remove-project name="platform/packages/apps/Car/libs"/>
   <remove-project name="platform/packages/apps/Car/tests"/>
 </manifest>
-
-
-
