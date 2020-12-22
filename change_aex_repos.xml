@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- 
 	<remote  name="apon" fetch="https://github.com/Apon77" />
- 
+
+        #Frameworks base
 	<remove-project name="platform_frameworks_base" />
-	<project path="frameworks/base" name="platform_frameworks_base-1" remote="apon" revision="11.x"/>
--->
+	<project path="frameworks/base" name="platform_frameworks_base-2" remote="apon" revision="11.x"/>
 
 	<remote  name="los" fetch="https://github.com/LineageOS" />
  
         #Telephony
 	<remove-project name="frameworks/opt/telephony" />
 	<project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="los" revision="lineage-18.1"/>
-
 
 </manifest>
