@@ -11,6 +11,6 @@
  
         #Telephony
 	<remove-project name="platform_frameworks_opt_telephony" />
-	<project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="los" revision="lineage-18.1"/>
+	<project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="apon" revision="11.x"/>
 
 </manifest>
