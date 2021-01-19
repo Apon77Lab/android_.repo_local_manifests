@@ -8,5 +8,5 @@
 
         #Telephony
 	<remove-project name="platform_frameworks_opt_telephony" />
-	<project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="apon" revision="11.x"/>
+	<project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aponlab" revision="11.x"/>
 </manifest>
