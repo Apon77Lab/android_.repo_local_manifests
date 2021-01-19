@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-	<remote  name="apon" fetch="https://github.com/Apon77" />
+	<remote  name="aponlab" fetch="https://github.com/Apon77lab" />
 
         #Frameworks base
 	<remove-project name="platform_frameworks_base" />
-	<project path="frameworks/base" name="platform_frameworks_base-2" remote="apon" revision="11.x"/>
+	<project path="frameworks/base" name="platform_frameworks_base" remote="aponlab" revision="11.x"/>
 
-	<remote  name="los" fetch="https://github.com/LineageOS" />
- 
         #Telephony
 	<remove-project name="platform_frameworks_opt_telephony" />
 	<project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="apon" revision="11.x"/>
-
 </manifest>
