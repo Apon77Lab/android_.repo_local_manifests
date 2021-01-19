@@ -9,4 +9,9 @@
         #Telephony
 	<remove-project name="platform_frameworks_opt_telephony" />
 	<project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aponlab" revision="11.x"/>
+	
+        #Vendor
+	<remove-project name="platform_vendor_aosp" />
+	<project path="vendor/aosp" name="platform_vendor_aosp
+" remote="aponlab" revision="11.x"/>
 </manifest>
