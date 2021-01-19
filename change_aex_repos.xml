@@ -12,6 +12,5 @@
 	
         #Vendor
 	<remove-project name="platform_vendor_aosp" />
-	<project path="vendor/aosp" name="platform_vendor_aosp
-" remote="aponlab" revision="11.x"/>
+	<project path="vendor/aosp" name="platform_vendor_aosp" remote="aponlab" revision="11.x"/>
 </manifest>
