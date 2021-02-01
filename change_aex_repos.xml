@@ -10,6 +10,10 @@
         <remove-project name="platform_frameworks_native" />
 	<project path="frameworks/native" name="platform_frameworks_native" remote="aponlab" revision="11.x"/>
 
+        #Frameworks av
+        <remove-project name="platform_frameworks_av" />
+	<project path="frameworks/av" name="platform_frameworks_av" remote="aponlab" revision="11.x"/>
+
         #Telephony
 	<remove-project name="platform_frameworks_opt_telephony" />
 	<project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aponlab" revision="11.x"/>
