@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remove-project name="platform/prebuilts/clang/host/linux-x86"/>
-	<remove-project name="platform/prebuilts/vndk/v29"/>
-	<remove-project name="platform/prebuilts/vndk/v27"/>
 	<remove-project name="platform/prebuilts/fuchsia_sdk"/>
 	<remove-project name="platform/prebuilts/abi-dumps/ndk"/>
 	<remove-project name="platform/prebuilts/abi-dumps/vndk"/>
@@ -10,5 +7,4 @@
 	<remove-project name="platform/prebuilts/misc"/>
 	<remove-project name="platform/prebuilts/gradle-plugin"/>
 	<remove-project name="platform/prebuilts/rust"/>
-	<remove-project name="platform/cts"/>
 </manifest>
