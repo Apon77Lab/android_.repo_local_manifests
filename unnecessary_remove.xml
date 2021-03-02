@@ -2,7 +2,6 @@
 <manifest>
 	<remove-project name="platform/prebuilts/clang/host/linux-x86"/>
 	<remove-project name="platform/prebuilts/vndk/v29"/>
-	<remove-project name="platform/prebuilts/vndk/v28"/>
 	<remove-project name="platform/prebuilts/vndk/v27"/>
 	<remove-project name="platform/prebuilts/fuchsia_sdk"/>
 	<remove-project name="platform/prebuilts/abi-dumps/ndk"/>
