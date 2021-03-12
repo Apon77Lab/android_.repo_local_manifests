@@ -11,6 +11,6 @@
 	<project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aponlab" revision="11.x"/>
 	
         #Telophony 2
-        <remove-project name="platform_vendor_codeaurora_telephony" />
+        <remove-project name="android_vendor_codeaurora_telephony" />
 	<project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="aponlab" revision="los18"/>
 </manifest>
