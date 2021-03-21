@@ -8,7 +8,7 @@
 	<remote  name="dicky"
 		fetch="https://github.com/Nicklas373" />
  
- 	<project path="device/xiaomi/mido" name="aex" remote="apon" revision="aex"/>
+ 	<project path="device/xiaomi/mido" name="aex" remote="apon" revision="debloat"/>
 	<project path="kernel/xiaomi/mido" name="aexk" remote="apon" revision="aex" />
 	<project path="vendor/xiaomi" name="aexv" remote="apon" revision="aex"/>
 
