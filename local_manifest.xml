@@ -8,7 +8,7 @@
 	<remote  name="dicky"
 		fetch="https://github.com/Nicklas373" />
  
- 	<project path="device/xiaomi/mido" name="ppui" remote="apon" revision="ppui11"/>
+ 	<project path="device/xiaomi/mido" name="ppui" remote="apon" revision="ppui3rd"/>
 	<project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="zeelog" revision="lineage-18.1" />
 	<project path="vendor/xiaomi" name="aexv" remote="apon" revision="aex"/>
 
