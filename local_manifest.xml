@@ -3,12 +3,14 @@
 
 	<remote  name="apon"
 		fetch="https://github.com/Apon77" />
+	<remote  name="smokey"
+		fetch="https://github.com/Scarlett-Project" />
 	<remote  name="zeelog"
          	fetch="https://github.com/zeelog" />
 	<remote  name="dicky"
 		fetch="https://github.com/Nicklas373" />
  
- 	<project path="device/xiaomi/mido" name="ppui" remote="apon" revision="ppui3rd"/>
+ 	<project path="device/xiaomi/mido" name="eleven_device_xiaomi_mido" remote="smokey" revision="aosp"/>
 	<project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="zeelog" revision="lineage-18.1" />
 	<project path="vendor/xiaomi" name="aexv" remote="apon" revision="aex"/>
 
