@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote  name="ppui_private" fetch="https://github.com/PixelPlusUI-Elle" />
+
+        #Private things
+	<project path="external/faceunlock" name="android_external_faceunlock" remote="ppui_private"/>
+	<project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="ppui_private"/>
+
+	<remove-project name="frameworks_base" />
+	<project path="frameworks/base" name="android_frameworks_base" remote="ppui_private"/>
+
+	<remove-project name="packages_services_Telecomm" />
+	<project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="ppui_private"/>
+
+	<remove-project name="frameworks_native" />
+	<project path="frameworks/native" name="android_frameworks_native" remote="ppui_private"/>
+
+
+	<remove-project name="packages_apps_Settings" />
+	<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ppui_private"/>
+
+	<remove-project name="vendor_aosp" />
+	<project path="vendor/aosp" name="android_vendor_aosp" remote="ppui_private"/>
+
+	<project path="packages/apps/Pixelizer" name="packages_apps_Pixelizer" remote="ppui_private"/>
+
+</manifest>
