@@ -4,26 +4,26 @@
 	<remote  name="aponlab" fetch="https://github.com/Apon77lab" />
 
         #Private things
-	<project path="external/faceunlock" name="android_external_faceunlock" remote="ppui_private"/>
-	<project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="ppui_private"/>
+	<project path="external/faceunlock" name="android_external_faceunlock" remote="ppui_private" revision="eleven" />
+	<project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="ppui_private" revision="eleven" />
 
 	<remove-project name="frameworks_base" />
-	<project path="frameworks/base" name="android_frameworks_base" remote="ppui_private"/>
+	<project path="frameworks/base" name="android_frameworks_base" remote="ppui_private" revision="eleven" />
 
 	<remove-project name="packages_services_Telecomm" />
-	<project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="ppui_private"/>
+	<project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="ppui_private" revision="eleven" />
 
 	<remove-project name="frameworks_native" />
-	<project path="frameworks/native" name="android_frameworks_native" remote="ppui_private"/>
+	<project path="frameworks/native" name="android_frameworks_native" remote="ppui_private" revision="eleven" />
 
 
 	<remove-project name="packages_apps_Settings" />
-	<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ppui_private"/>
+	<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ppui_private" revision="eleven" />
 
 	<remove-project name="vendor_aosp" />
-	<project path="vendor/aosp" name="android_vendor_aosp" remote="ppui_private"/>
+	<project path="vendor/aosp" name="android_vendor_aosp" remote="ppui_private" revision="eleven" />
 
-	<project path="packages/apps/Pixelizer" name="packages_apps_Pixelizer" remote="ppui_private"/>
+	<project path="packages/apps/Pixelizer" name="packages_apps_Pixelizer" remote="ppui_private" revision="eleven" />
 
 	<remove-project name="android_vendor_codeaurora_telephony" />
 	<project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="aponlab" revision="los18"/>
