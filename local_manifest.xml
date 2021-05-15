@@ -7,9 +7,12 @@
          	fetch="https://github.com/zeelog" />
 	<remote  name="dicky"
 		fetch="https://github.com/Nicklas373" />
+	<remote  name="los"
+		fetch="https://github.com/LineageOS" />
  
  	<project path="device/xiaomi/mido" name="aex" remote="apon" revision="aex"/>
 	<project path="kernel/xiaomi/mido" name="aexk" remote="apon" revision="aex" />
 	<project path="vendor/xiaomi" name="aexv" remote="apon" revision="aex"/>
+	<project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" revision="lineage-18.1"/>
 
 </manifest>
