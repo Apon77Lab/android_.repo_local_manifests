@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote  name="los"
+		fetch="https://github.com/LineageOS" />
+ 
+	<project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="los" revision="lineage-18.1-legacy"/>
+
+</manifest>
