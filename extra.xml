@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote  name="los"
+		fetch="https://github.com/LineageOS" />
+ 
+	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="los" revision="lineage-18.1"/>
+	<project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" revision="lineage-18.1"/>
+
+</manifest>
