@@ -10,6 +10,6 @@
  	<project path="device/xiaomi/msm8974-common" name="android_device_xiaomi_msm8974-common" remote="apon" revision="arrow12"/>
  	<project path="kernel/xiaomi/virgo" name="android_kernel_xiaomi_virgo" remote="mi3" revision="lineage-18.1"/>
  	<project path="vendor/xiaomi/cancro" name="android_vendor_xiaomi_cancro" remote="mi3" revision="lineage-18.1"/>
- 	<project path="vendor/xiaomi/msm8974-common" name="android_vendor_xiaomi_msm8974-common" remote="mi3" revision="lineage-18.1"/>
+ 	<project path="vendor/xiaomi/msm8974-common" name="android_vendor_xiaomi_msm8974-common" remote="apon" revision="lineage-18.1"/>
 
 </manifest>
