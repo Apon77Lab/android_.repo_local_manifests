@@ -5,11 +5,9 @@
 		fetch="https://github.com/Apon77" />
 	<remote  name="zeelog"
          	fetch="https://github.com/zeelog" />
-	<remote  name="dicky"
-		fetch="https://github.com/Nicklas373" />
  
- 	<project path="device/xiaomi/mido" name="aex" remote="apon" revision="aex"/>
-	<project path="kernel/xiaomi/mido" name="aexk" remote="apon" revision="aex" />
-	<project path="vendor/xiaomi" name="aexv" remote="apon" revision="aex"/>
+ 	<project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="apon" revision="lineage-19.1"/>
+	<project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="zeelog" revision="lineage-19.1" />
+	<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="zeelog" revision="lineage-19.1"/>
 
 </manifest>
