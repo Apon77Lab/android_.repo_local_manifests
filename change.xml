@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote  name="aponlab" fetch="https://github.com/Apon77lab" />
+
+        #vendor
+	<remove-project name="crdroidandroid/android_vendor_crdroid" />
+	<project path="vendor/lineage" name="android_vendor_crdroid" remote="aponlab" revision="12.1"/>
+
+</manifest>
