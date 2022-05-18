@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote  name="aponlab" fetch="https://github.com/Apon77lab" />
+	<remote name="pixel"
+		fetch="https://github.com/PixelExperience"
+		revision="twelve"
+		review="gerrit.pixelexperience.org" />
 
         #updater
 	<remove-project name="crdroidandroid/android_packages_apps_Updater" />
@@ -8,5 +12,10 @@
 
 	<remove-project name="crdroidandroid/android_vendor_crDroidOTA" />
 	<project path="vendor/crDroidOTA" name="android_vendor_crDroidOTA" remote="aponlab" revision="12.1"/>
+
+        #fm
+	<project path="packages/apps/FMRadio" name="o" remote="aponlab" revision="12.1"/>
+	<project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
+
 
 </manifest>
