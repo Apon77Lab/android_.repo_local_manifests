@@ -13,8 +13,4 @@
 	<remove-project name="crdroidandroid/android_vendor_crDroidOTA" />
 	<project path="vendor/crDroidOTA" name="android_vendor_crDroidOTA" remote="aponlab" revision="12.1"/>
 
-        #fm
-	<project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
-
-
 </manifest>
