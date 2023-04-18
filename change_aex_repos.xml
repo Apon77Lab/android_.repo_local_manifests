@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	#Now we can call https://github.com/Apon77lab with the name aponlab
 	<remote  name="aponlab" fetch="https://github.com/Apon77lab" />
+	#Means we can call https://github.com/Apon77lab with the name aponlab
 
+	<remove-project name="platform_frameworks_base" />
         #Frameworks base
 	#I am syncing AospExtended now, We want to remove existing AospExtended rom's platform_frameworks_base repository, in their manifest the project name is written https://github.com/AospExtended/manifest/blob/df6aca4713a81d2debee951844c49c6f061c0b40/snippets/aex.xml#L30
 	so we want to remove this project name, remove-project name="platform_frameworks_base" means we want to remove their existing platform_frameworks_base repository, we got name from here https://github.com/AospExtended/manifest/blob/df6aca4713a81d2debee951844c49c6f061c0b40/snippets/aex.xml#L30
-
 	So, it is equivalent to rm -rf frameworks/base
-	<remove-project name="platform_frameworks_base" />
+	Note that, project path and project name is different. path means where to clone in our computer, name means which repo to clone.
+
+	<project path="frameworks/base" name="platform_frameworks_base" remote="aponlab" revision="auto"/>
 
 	#project path="frameworks/base" means the folder where to sync repo,
 	remote="aponlab" means we are indicating 3rd line(https://github.com/Apon77lab)
 	name="platform_frameworks_base" means the repo name from the remote aponlab (i.e. https://github.com/Apon77lab/platform_frameworks_base)
 	revision="auto" means the branch to clone from remote named aponlab
-
 	So, it is equivalent to git clone https://github.com/Apon77lab/platform_frameworks/base -b auto frameworks/base
-
 	So, ultimately we got like this, rm -rf frameworks/base && git clone https://github.com/Apon77lab/platform_frameworks/base -b auto frameworks/base
-	The benefit is it will directly sync frameworks/base from aponlab remote, which saves time and bandwidth
-	<project path="frameworks/base" name="platform_frameworks_base" remote="aponlab" revision="auto"/>
+	The benefit is it will directly sync frameworks/base from aponlab remote, without cloning frameworks/base from AospExtended source first, which saves time and bandwidth
 
-        #Telephony
-	Same things goes for this line, we can do as much as we need, we can just only remove things too if needed
 	<remove-project name="platform_frameworks_opt_telephony" />
 	<project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="aponlab" revision="auto"/>
+        #Telephony
+	Same things goes for this line, we can do as much as we need, we can just only remove things too if needed
 	
 </manifest>

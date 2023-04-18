@@ -1,40 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	#Now I can call any repo of https://github.com/Apon77 by calling apon
 	<remote  name="apon"
 		fetch="https://github.com/Apon77" />
+	#Means I can call any repo of https://github.com/Apon77 by calling apon.
 
-	#Now I can call any repo of https://github.com/zeelog by calling zeelog
 	<remote  name="zeelog"
          	fetch="https://github.com/zeelog" />
+	#Means I can call any repo of https://github.com/zeelog by calling zeelog.
 
-	#Now I can call any repo of https://github.com/Nicklas373 by calling dicky
 	<remote  name="dicky"
 		fetch="https://github.com/Nicklas373" />
+	#Means I can call any repo of https://github.com/Nicklas373 by calling dicky.
  
-	#project path="device/xiaomi/mido" means where tree will sync in server,
-	remote="apon" means I am calling 4th line(i.e. https://github.com/Apon77)
-	name="aex" means the name of repository which I wannt to sync (i.e. apon means https://github.com/Apon77 and aex means aex, so we are pointing to the repo https://github.com/Apon77/aex)
-	revision="aex" means the branch of https://github.com/Apon77/aex we want to sync
-
-	So, it became equivalent to git clone https://github.com/Apon77/aex -b aex device/xiaomi/mido
  	<project path="device/xiaomi/mido" name="aex" remote="apon" revision="aex"/>
+	#Here, project path="device/xiaomi/mido" means where tree will sync in server,
+	remote="apon" means I am calling 5th line(i.e. https://github.com/Apon77)
+	name="aex" means the name of repository which I wannt to sync (i.e. apon means https://github.com/Apon77 and name="aex" means aex repo of apon, so we are pointing to the repo https://github.com/Apon77/aex)
+	revision="aex" means the branch of https://github.com/Apon77/aex we want to sync.
+	So, it became equivalent to git clone https://github.com/Apon77/aex -b aex device/xiaomi/mido.
 
-	#project path="kernel/xiaomi/mido" means where tree will sync in server,
-	remote="dicky" means I am calling 12th line(i.e. https://github.com/Nicklas373)
-	name="kernel_xiaomi_msm8953-4.9" means the name of repository which I wannt to sync (i.e. dicky means https://github.com/Nicklas373 and kernel_xiaomi_msm8953-4.9 means kernel_xiaomi_msm8953-4.9, so we are pointing to the repo https://github.com/Nicklas373/kernel_xiaomi_msm8953-4.9)
-	revision="lineage-17.1" means the branch of https://github.com/Nicklas373/kernel_xiaomi_msm8953-4.9 we want to sync
-
-	So, it became equivalent to git clone https://github.com/Nicklass373/kernel_xiaomi_msm8953-4.9 -b lineage-17.1 kernel/xiaomi/mido
 	<project path="kernel/xiaomi/mido" name="kernel_xiaomi_msm8953-4.9" remote="dicky" revision="lineage-17.1" />
+	#Here, project path="kernel/xiaomi/mido" means where tree will sync in server,
+	remote="dicky" means I am calling 13th line(i.e. https://github.com/Nicklas373)
+	name="kernel_xiaomi_msm8953-4.9" means the name of repository which I wannt to sync (i.e. dicky means https://github.com/Nicklas373 and name="kernel_xiaomi_msm8953-4.9" means kernel_xiaomi_msm8953-4.9 repo of dicky, so we are pointing to the repo https://github.com/Nicklas373/kernel_xiaomi_msm8953-4.9)
+	revision="lineage-17.1" means the branch of https://github.com/Nicklas373/kernel_xiaomi_msm8953-4.9 we want to sync.
+	So, it became equivalent to git clone https://github.com/Nicklass373/kernel_xiaomi_msm8953-4.9 -b lineage-17.1 kernel/xiaomi/mido.
 
-	#project path="vendor/xiaomi" means where tree will sync in server,
-	remote="zeelog" means I am calling 8th line(i.e. https://github.com/zeelog)
-	name="proprietary_vendor_xiaomi" means the name of repository which I wannt to sync (i.e. zeelog means https://github.com/zeelog and proprietary_vendor_xiaomi means proprietary_vendor_xiaomi, so we are pointing to the repo https://github.com/zeelog/proprietary_vendor_xiaomi)
-	revision="lineage-18.1" means the branch of https://github.com/zeelog/proprietary_vendor_xiaomi we want to sync
-
-	So, it became equivalent to git clone https://github.com/zeelog/proprietary_vendor_xiaomi -b lineage-18.1 vendor/xiaomi
 	<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="zeelog" revision="lineage-18.01"/>
+	#Here, project path="vendor/xiaomi" means where tree will sync in server,
+	remote="zeelog" means I am calling 9th line(i.e. https://github.com/zeelog)
+	name="proprietary_vendor_xiaomi" means the name of repository which I wannt to sync (i.e. zeelog means https://github.com/zeelog and name="proprietary_vendor_xiaomi" means proprietary_vendor_xiaomi repo of zeelog, so we are pointing to the repo https://github.com/zeelog/proprietary_vendor_xiaomi)
+	revision="lineage-18.1" means the branch of https://github.com/zeelog/proprietary_vendor_xiaomi we want to sync.
+	So, it became equivalent to git clone https://github.com/zeelog/proprietary_vendor_xiaomi -b lineage-18.1 vendor/xiaomi.
 
 </manifest>

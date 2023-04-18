@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	# we are syncing AospExtended rom, i dont want to sync this things, i got these name from AospExtended manifest. https://github.com/AospExtended/manifest/blob/b81a4f69675c6da37bdf30bdd8c3ba9749a9829d/default.xml#L64-L74
 	<remove-project name="device/common"/>
 	<remove-project name="device/generic/arm64"/>
 	<remove-project name="device/generic/armv7-a-neon"/>
@@ -18,4 +17,6 @@
 	<remove-project name="device/generic/qemu"/>
 	<remove-project name="device/generic/trusty"/>
 	<remove-project name="device/generic/x86"/>
+	# we are syncing AospExtended rom, i dont want to sync this things, i got these name from AospExtended manifest. https://github.com/AospExtended/manifest/blob/b81a4f69675c6da37bdf30bdd8c3ba9749a9829d/default.xml#L64-L74
+	Again note that, project path and project name is different. Here we used project name.
 </manifest>
