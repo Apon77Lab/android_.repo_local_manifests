@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-	<remote  name="aponlab" fetch="https://github.com/Apon77lab" />
-	<remote name="pixel"
-		fetch="https://github.com/PixelExperience"
-		revision="twelve"
-		review="gerrit.pixelexperience.org" />
 
-
-</manifest>
