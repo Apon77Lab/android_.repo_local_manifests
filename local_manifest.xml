@@ -5,9 +5,12 @@
 		fetch="https://github.com/Apon77" />
 	<remote  name="cr"
          	fetch="https://github.com/crdroidandroid" />
+	<remote  name="gh"
+         	fetch="https://github.com" />
  
  	<project path="device/xiaomi/topaz" name="android_device_xiaomi_topaz" remote="cr" revision="15.0"/>
 	<project path="device/xiaomi/topaz-kernel" name="android_kernel_xiaomi_topaz" remote="cr" revision="15.0" />
 	<project path="vendor/xiaomi/topaz" name="proprietary_vendor_xiaomi_topaz" remote="cr" revision="15.0"/>
+	<project path="device/qcom/sepolicy_vndr/sm6225" name="Xiaomi-SD685-Devs/device_qcom_sepolicy_vndr" remote="gh" revision="lineage-21.0-caf-sm6225"/>
 
 </manifest>
