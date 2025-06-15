@@ -8,8 +8,8 @@
 	<remote  name="gh"
          	fetch="https://github.com" />
  
- 	<project path="device/xiaomi/topaz" name="Apon77Lab/android_device_xiaomi_topaz" remote="gh" revision="15.0"/>
-	<project path="device/xiaomi/topaz-kernel" name="android_kernel_xiaomi_topaz" remote="cr" revision="15.0" />
+ 	<project path="device/xiaomi/topaz" name="android_device_xiaomi_topaz" remote="cr" revision="15.0"/>
+	<project path="device/xiaomi/topaz-kernel" name="BaranAspect-Development/android_kernel_xiaomi_topaz" remote="gh" revision="lineage-22.2" />
 	<project path="vendor/xiaomi/topaz" name="proprietary_vendor_xiaomi_topaz" remote="cr" revision="15.0"/>
 	<project path="device/qcom/sepolicy_vndr/sm6225" name="Xiaomi-SD685-Devs/device_qcom_sepolicy_vndr" remote="gh" revision="lineage-21.0-caf-sm6225"/>
 	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="cr" revision="15.0"/>
