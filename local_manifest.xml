@@ -18,6 +18,19 @@
     <!-- Sepolicy -->
     <project path="device/qcom/sepolicy_vndr/sm6225" name="android-device_qcom_sepolicy_vndr" remote="BaranAspect" revision="lineage-22.2-caf-sm6225" />
     <project path="device/xiaomi/sepolicy" name="android_device_xiaomi_sepolicy" remote="BaranAspect" revision="lineage-22.2" />
+
+    <!-- Remove conflicting hals -->
+    <remove-project name="LineageOS/android_hardware_qcom_audio" />
+    <remove-project name="LineageOS/android_hardware_qcom_display" />
+    <remove-project name="LineageOS/android_hardware_qcom_media" />
+    <remove-project name="LineageOS/android_hardware_qcom_audio-ar" />
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_agm" />
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_arpal-lx" />
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_audioreach-graphservices" />
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_dataipa" />
+    <remove-project name="crdroidandroid/android_hardware_qcom_display" />
+	
     <!-- Custom -->
     <remove-project path="hardware/qcom-caf/common" />
     <project path="hardware/qcom-caf/common" name="android-hardware_qcom-caf_common" remote="BaranAspect" revision="lineage-22.2" >
